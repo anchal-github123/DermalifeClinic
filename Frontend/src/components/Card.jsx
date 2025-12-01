@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { memo } from "react";
- function Card({ title, desc, img,id }) {
+
+export default function Card({ title, desc, img, id }) {
   return (
     <div
       className="
@@ -13,50 +13,47 @@ import { memo } from "react";
         duration-300 
         hover:-translate-y-1
         cursor-pointer
-        p-5 
+        p-4 md:p-5
       "
     >
       {/* IMAGE */}
-      <div className="w-full h-[220px] overflow-hidden rounded-2xl mb-4">
+      <div className="w-full h-[200px] md:h-[220px] overflow-hidden rounded-2xl mb-3">
         <img
           src={img}
           alt={title}
-          className="w-full h-full object-cover transition-all duration-500 hover:scale-105"
           loading="lazy"
+          className="w-full h-full object-cover transition-all duration-500 hover:scale-105"
         />
       </div>
 
       {/* TITLE */}
-      <h3 className="text-xl font-semibold text-dark mb-2">
+      <h3 className="text-lg md:text-xl font-semibold text-dark mb-1">
         {title}
       </h3>
 
       {/* DESCRIPTION */}
-      <p className="text-tertiary text-sm leading-relaxed mb-4">
+      <p className="text-tertiary text-sm leading-relaxed mb-3">
         {desc}
       </p>
 
       {/* BUTTON */}
-    <Link
-  to={`/serviceDetails/${id}`}
-
-  className="
-    inline-block 
-    mt-2
-    text-sm
-    font-medium 
-    text-white 
-    bg-primary
-    py-3 px-8
-    rounded-xl 
-    hover:bg-secondary
-    transition-all
-  "
->
- View Details
-</Link>
+      <Link
+        to={`/serviceDetails/${id}`}
+        className="
+          inline-block 
+          text-sm
+          font-medium 
+          text-white 
+          bg-primary
+          py-2.5 px-6
+          rounded-lg 
+          hover:bg-secondary
+          transition-all
+        "
+      >
+        View Details
+      </Link>
 
     </div>
   );
 }
-export default memo(Card);

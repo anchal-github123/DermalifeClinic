@@ -58,14 +58,11 @@ Message: ${userdata.message}
           onChange={(e)=>handelEachFiled(e)}
        
         />
-
-        
-
         <input
           type="date"
           className="w-full p-2 border rounded mb-3"
            name="date"
-           placeholder="Enter Date"
+          placeholder="Enter date"
            value={userdata.date}
           onChange={(e)=>handelEachFiled(e)}
       
@@ -75,7 +72,7 @@ Message: ${userdata.message}
           type="time"
           className="w-full p-2 border rounded mb-3"
           name="time"
-          placeholder="Enter Time"
+         placeholder="time"
           value={userdata.time}
           onChange={(e)=>handelEachFiled(e)}
         
@@ -94,14 +91,14 @@ Message: ${userdata.message}
         <div className="flex justify-end gap-3">
           <button
             onClick={()=>setIsClick(false)}
-            className="px-4 py-2 rounded bg-[#3e3e3e] text-white"
+            className="px-4 py-2 rounded bg-[#3e3e3e] text-light"
           >
             Cancel
           </button>
 
           <button
             onClick={handleSubmit}
-            className="px-4 py-2 rounded bg-primary text-white"
+            className="px-4 py-2 rounded bg-primary text-light"
           >
             Book Now
           </button>

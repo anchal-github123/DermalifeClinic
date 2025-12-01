@@ -1,20 +1,17 @@
-import {Suspense, lazy } from "react";
 import CommonHeading from "../../components/CommonHeading";
 import { services } from "../../Utils/servicedata";
-
-// Lazy-load Card component
-const Card = lazy(() => import("../../components/Card"));
+import Card from "../../components/Card";
 
 export default function Service() {
   return (
-    <section className="py-5 lg:py-16">
+    <section className="py-5 lg:py-12">
       <CommonHeading
         heading="Our Services"
         para="Advanced skin, hair, laser, and aesthetic treatments designed to enhance your natural beauty with expert care."
       />
 
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10">
-        <Suspense fallback="loading..">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-5">
+       
           {services.map((item) => (
             
               <Card
@@ -26,7 +23,7 @@ export default function Service() {
               />
            
           ))}
-        </Suspense>
+     
       </div>
     </section>
   );
