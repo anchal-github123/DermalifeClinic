@@ -2,6 +2,7 @@ import Navbar from "../components/common/Navbar/Navbar";
 import Footer from "../components/common/Footer/Footer";
 import { Outlet } from "react-router-dom";
 import ScrollTop from "../components/common/ScrollTop";
+import WhatsappMessage from "../components/WhatsappMessage";
 
 export default function MainLayout() {
   return (
@@ -16,6 +17,9 @@ export default function MainLayout() {
       </div>
 
       <Footer />
+      <div>
+        <WhatsappMessage/>
+      </div>
     </div>
   );
 }
