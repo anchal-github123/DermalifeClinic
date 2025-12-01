@@ -1,0 +1,12 @@
+@theme {
+  /* blue */
+  --color-primary: #231c9e;
+  --color-secondary: #06B6D4;
+  /* grey */
+  --color-tertiary: #654A55;
+  --color-lightblue:#f5f6ff;
+
+   --color-light: #ffffff;
+  --color-dark: #1e293b;
+
+}
