@@ -5,6 +5,7 @@ export default function WhatsappMessage() {
     <a
       href="https://wa.me/919776636330"
       target="_blank"
+      rel="noopener noreferrer"
       className="
         fixed 
         bottom-6 
