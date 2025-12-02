@@ -1,6 +1,6 @@
 import skinimg from '../assets/images/Skinimg.webp'
 import Hairimg from '../assets/images/Hair.webp'
-import Heroimg from '../assets/images/Heroimg.webp'
+import lazer from '../assets/images/lazer.webp'
 import Antiagingimg from '../assets/images/Anti-agingimg.webp'
 import semipaermanetmakeup from '../assets/images/semi-permanentimg.webp'
 import weightlossimg from '../assets/images/Weightlossimg.webp'
@@ -114,7 +114,7 @@ export const services = [
   -------------------------------------------------- */
   {
     id: 3,
-    imageName: Heroimg,
+    imageName: lazer,
     serviceName: "Laser Treatments",
     subHeading: "Safe & effective laser solutions for skin and hair concerns.",
     buttonLink: "/services/laser",

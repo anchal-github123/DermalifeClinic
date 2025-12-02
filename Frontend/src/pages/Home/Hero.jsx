@@ -26,7 +26,7 @@ export default function Hero() {
           </h4>
 
           <h1 className="text-4xl md:text-5xl lg:text-[58px] font-semibold leading-tight text-black">
-            Advanced Dermatology, Hair Care &  
+            Advanced  Cosmetology, Hair Care &  
             <br className="hidden lg:block" />
             Aesthetic Treatments
           </h1>

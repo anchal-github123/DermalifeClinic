@@ -1,15 +1,18 @@
 import { NavLink } from "react-router-dom"
 import { navItems } from "../../../Utils/navbardata"
-import logo from "/logo.png"
+import logo from "/logo.webp"
 import Button from "../../Button"
 import Mobilenav from "./Mobilenav"
 export default function Navbar() {
   return (
-    <header className="bg-primary text-light header grid  grid-cols-2 lg:grid-cols-3 py-2 font-['Poppins']   sticky top-0 z-50">
+    <header className="bg-primary text-light header flex justify-between items-center py-2 font-['Poppins'] sticky top-0 z-50 ">
     {/*1 Logo of Dermalife------------------- */}
     <div className=" flex  justify-start items-center gap-2">
-        <img src={logo} alt="logo" loading="lazy" className="h-15 w-15 rounded-full"></img>
+        <img src={logo} alt="logo" loading="lazy" className="h-15 w-15 rounded-b-full"></img>
+        <div className="flex flex-col">
         <h1 className="text-[1.2em] font-medium">Dermalife</h1>
+        <h2 className="text-[0.7em] md:text-[0.8em]"> laser and aesthetic clinic</h2>
+        </div> 
     </div>
     {/*2 Navbar Elements--------------------- */}
     <nav className="hidden lg:flex items-center justify-center text-[1.1em] ">
@@ -30,13 +33,8 @@ export default function Navbar() {
                    textcol="light"
                    hover="primary"
                    link="9776636330"
-                 />
-    </div>
-
-
-    <Mobilenav></Mobilenav>
-  
-
-   </header>
+                 /></div>
+<Mobilenav></Mobilenav>
+  </header>
   )
 }

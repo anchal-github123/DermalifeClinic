@@ -1,7 +1,7 @@
 export default function Button({ text, bgcolor, textcol, hover, type, link, onClick }) {
   const baseClass =
     `flex items-center justify-between gap-2 cursor-pointer font-medium
-     text-[0.8rem] md:text-[1.2rem] px-5 py-3 md:px-6 md:py-4 lg:px-8 lg:py-4 
+     text-[0.9rem] sm:text[0.8rem] md:text-[1.2rem] px-5 py-3 md:px-6 md:py-4 lg:px-8 lg:py-4 
      rounded-full shadow-sm hover:shadow-md transition`;
 
   const style = {

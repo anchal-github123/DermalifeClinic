@@ -70,7 +70,7 @@ export default function Footer() {
           </address>
 
           <p className="mt-4 text-gray-300">
-            <strong>Dr. Monika Sahu</strong><br />
+            
             Phone:{" "}
             <a href="tel:+919776636330" className="hover:text-white">
               +91 9776636330

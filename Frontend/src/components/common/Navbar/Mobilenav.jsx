@@ -10,7 +10,7 @@ export default function Mobilenav() {
     <>
       {/* Menu Button */}
       <div
-        className="flex justify-end items-center lg:hidden cursor-pointer "
+        className="flex justify-end items-center lg:hidden cursor-pointer  "
         onClick={() => setIsOpen(!isOpen)}
       >
         <TextAlignJustify size={28}  />
