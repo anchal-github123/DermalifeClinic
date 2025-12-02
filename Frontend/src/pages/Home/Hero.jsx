@@ -17,7 +17,7 @@ export default function Hero() {
         initial={{ y: -80, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.9, ease: easeIn }}
-        className="relative grid grid-cols-1 lg:grid-cols-2 items-center gap-5 lg:gap-10 px-2 lg:py-12"
+        className="relative grid grid-cols-1 lg:grid-cols-2 items-center gap-5 lg:gap-10 px-1 lg:py-12"
       >
         {/* LEFT CONTENT */}
         <div>
@@ -31,7 +31,7 @@ export default function Hero() {
             Aesthetic Treatments
           </h1>
 
-          <p className="text-tertiary mt-5 lg:mt-7 max-w-[95%]">
+          <p className="text-tertiary mt-5 lg:mt-7 max-w-[96%]">
             Safe, result-driven skin, hair and laser solutions performed by 
             experienced clinicians using advanced medical technology. 
             Personalized care, visible transformation, and long-lasting confidence.
