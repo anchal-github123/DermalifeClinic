@@ -1,7 +1,7 @@
-import skinimg from '../assets/images/Skinimg.webp'
-import Hairimg from '../assets/images/Hair.webp'
-import lazer from '../assets/images/lazer.webp'
-import Antiagingimg from '../assets/images/Anti-agingimg.webp'
+import skinimg from '../assets/images/Skincare.webp'
+import Hairimg from '../assets/images/Hairimg.webp'
+import lazer from '../assets/images/Anti-agingimg (4).webp'
+import Antiagingimg from '../assets/images/Anti-agingimg (1).webp'
 import semipaermanetmakeup from '../assets/images/semi-permanentimg.webp'
 import weightlossimg from '../assets/images/Weightlossimg.webp'
 import IVRimg from "../assets/images/IVR.webp"
@@ -76,7 +76,8 @@ export const services = [
         "Anti-Aging Skin Tightening",
         "Under-Eye Dark Circle Treatment",
         "Dark Peri-Oral Mouth Lightening",
-        "Dark Lip Lightening"
+        "Dark Lip Lightening",
+        "Ear lobe repair"
       ]
     }
   },
@@ -99,7 +100,8 @@ export const services = [
         "Stem Cell (Exosomes) Therapy",
         "Monothreads",
         "Scalp Micropigmentation",
-        "Dandruff Treatment"
+        "Dandruff Treatment",
+        "Laser Hair Reduction",
       ],
 
       AdvancedHairRestoration: [

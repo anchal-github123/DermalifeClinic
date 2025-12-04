@@ -25,7 +25,7 @@ export default function Hero() {
             Trusted Skin, Hair & Aesthetic Clinic
           </h4>
 
-          <h1 className="text-4xl md:text-5xl lg:text-[58px] font-semibold leading-tight text-black">
+          <h1 className="text-4xl md:text-5xl lg:text-[58px] font-semibold  text-black">
             Advanced  Cosmetology, Hair Care &  
             <br className="hidden lg:block" />
             Aesthetic Treatments
