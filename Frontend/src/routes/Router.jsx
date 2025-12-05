@@ -2,12 +2,14 @@ import { createBrowserRouter,RouterProvider } from "react-router-dom";
 import MainLayout from "../layout/MainLayout";
 import { lazy,Suspense } from "react";
 import Loader from "../components/Loader";
+
 // All pages
 const Home = lazy(() => import("../pages/Home/Home"));
 const About = lazy(() => import("../pages/About/About"));
 const Service = lazy(() => import("../pages/Service/Service"));
 const Contact = lazy(() => import("../pages/Contact/Contact"));
 const AppointmentModel = lazy(() => import("../components/AppointmentModel"));
+const ClinicGallery=lazy(()=>import("../components/ClinicGallery"))
 const ServiceDeatails=lazy(()=>import("../pages/ServiceDeatils/ServiceDeatails"))
 const router = createBrowserRouter([
   {
@@ -47,6 +49,14 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback={<Loader />}>
             <Contact />
+          </Suspense>
+        ),
+      },
+       {
+        path: "gallery",
+        element: (
+          <Suspense fallback={<Loader />}>
+           <ClinicGallery/>
           </Suspense>
         ),
       },

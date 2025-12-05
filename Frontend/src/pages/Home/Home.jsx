@@ -1,9 +1,7 @@
 import { Suspense, lazy } from "react";
-import before from "../../assets/images/Before.webp"
-import after from "../../assets/images/After.webp"
 // Lazy import components
 import Hero from "../Home/Hero"
-import BeforeAfterSlider from "../../components/BeforeAfterSlider";
+import Slider from "../../components/Slider";
 const Middleblock = lazy(() => import("../../components/common/Middleblock"));
 const Service = lazy(() => import("../Service/Service"));
 const Whychoose = lazy(() => import("../../components/Whychoose"));
@@ -19,9 +17,8 @@ export default function Home() {
       }>
         <Middleblock />
         <Service />
-        <BeforeAfterSlider  title="Before/After"
-        before={before}
-        after={after}/>
+        <Slider/>
+      
         <Whychoose />
 
       </Suspense>

@@ -47,7 +47,7 @@ export default function Card({ title, desc, img, id }) {
           bg-primary
           w-full
           text-center
-          py-2.5 px-6
+          py-3
           rounded-lg 
           hover:bg-secondary
           transition-all

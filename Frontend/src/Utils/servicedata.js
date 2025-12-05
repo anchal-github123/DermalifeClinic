@@ -1,6 +1,6 @@
-import skinimg from '../assets/images/Skincare.webp'
+import skinimg from '../assets/images/Skincare2.webp'
 import Hairimg from '../assets/images/Hairimg.webp'
-import lazer from '../assets/images/Anti-agingimg (4).webp'
+import lazer from '../assets/images/Skincare.webp'
 import Antiagingimg from '../assets/images/Anti-agingimg (1).webp'
 import semipaermanetmakeup from '../assets/images/semi-permanentimg.webp'
 import weightlossimg from '../assets/images/Weightlossimg.webp'
