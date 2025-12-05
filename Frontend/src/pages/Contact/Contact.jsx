@@ -92,10 +92,10 @@ export default function Contact() {
 
         {/* Social Links */}
         <div className="flex justify-center gap-5 mt-10">
-          <a href="#" className="p-3 bg-white shadow-md rounded-full hover:bg-gray-200">
+          <a href="https://www.facebook.com/people/Dermalife-Laser-and-Aesthetic-clinic/100094530831026/?mibextid=ZbWKwL"  target="_blank"  className="p-3 bg-white shadow-md rounded-full hover:bg-gray-200">
             <Facebook size={22} />
           </a>
-          <a href="#" className="p-3 bg-white shadow-md rounded-full hover:bg-gray-200">
+          <a href="https://www.instagram.com/dermalife.cuttack1?utm_source=qr&igsh=aG9jbGRhbXN2Y254"  target="_blank" className="p-3 bg-white shadow-md rounded-full hover:bg-gray-200">
             <Instagram size={22} />
           </a>
          
