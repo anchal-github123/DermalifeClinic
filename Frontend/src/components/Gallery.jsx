@@ -17,7 +17,7 @@ export default function Gallery({ images }) {
               alt={item.name}
             />
 
-            <p className="text-center font-semibold text-gray-700 py-3 text-sm">
+            <p className="text-center font-semibold text-gray-700 py-3 text-m">
               {item.name}
             </p>
           </div>
