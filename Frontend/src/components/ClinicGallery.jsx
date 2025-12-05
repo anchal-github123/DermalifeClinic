@@ -9,8 +9,9 @@ import img7 from "../assets/images/Facelift.webp";
 import img8 from "../assets/images/earlob.webp";
 import img9 from "../assets/images/knees.webp";
 import img10 from "../assets/images/melasma.webp";
-import img11 from "../assets/images/botox.webp"
+import img11 from "../assets/images/botox.webp";
+import img12 from "../assets/images/Acne-scars (1).webp";
 export default function ClinicGallery() {
-  const images = [img1, img2, img3, img4, img5,img6,img7,img8,img9,img10,img11];
+  const images = [img1, img2, img3, img4, img5,img6,img7,img8,img9,img10,img11,img12];
   return <Gallery images={images} />;
 }
