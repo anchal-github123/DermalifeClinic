@@ -48,7 +48,6 @@ export default function Contact() {
                 </p>
                 <p className="text-gray-600">
                   <a href="tel:+919776636330" className="hover:text-[#0F1D80]">
-                    Dr. Monika Sahu
                   </a>
                 </p>
               </div>
