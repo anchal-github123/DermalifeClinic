@@ -183,9 +183,12 @@ export const services = [
         "Double-Chin Tightening"
       ],
 
-      RFSkinRejuvenation: [
+      SkinRejuvenation: [
         "Skin Booster Injection",
-        "Collagen Boosting Treatment"
+        "Collagen Boosting Treatment",
+        "Rf skin tightening",
+        "PDRN Treatment",
+        "Exosomes treatment"
       ],
 
       UnderEyeLipSolutions: [
@@ -198,7 +201,7 @@ export const services = [
         "Lip Resurfacing",
         "Lip Fillers",
         "Lip Hydrators",
-        "PDRN Treatment"
+        
       ]
     }
   },
