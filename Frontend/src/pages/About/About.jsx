@@ -6,7 +6,7 @@ export default function About() {
     <>
       {/* ABOUT SECTION */}
       <section className="w-full py-5">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-6">
+        <div className=" grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-2">
 
           {/* LEFT — TEXT CONTENT */}
           <div>

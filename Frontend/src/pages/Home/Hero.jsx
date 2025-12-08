@@ -38,7 +38,7 @@ export default function Hero() {
           </p>
 
           {/* BUTTONS */}
-          <div className="flex items-center gap-3 lg:gap-5 mt-6 lg:mt-10">
+          <div className="flex justify-between md:justify-start items-center  gap-3 lg:gap-5 mt-6 lg:mt-10">
             {/* Call Button */}
             <Button
               type="call"

@@ -1,7 +1,7 @@
 export default function Gallery({ images }) {
   return (
-    <div className="bg-gray-100 py-5">
-      <h2 className="text-3xl font-bold text-center mb-10 text-gray-800">
+    <div className="bg-gray-100 py-3">
+      <h2 className="text-3xl font-bold text-center mb-5 text-gray-800">
         Our Clinic Gallery
       </h2>
 

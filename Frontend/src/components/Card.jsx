@@ -27,7 +27,7 @@ export default function Card({ title, desc, img, id }) {
       </div>
 
       {/* TITLE */}
-      <h3 className="text-lg md:text-xl font-semibold text-dark mb-1">
+      <h3 className="text-xl md:text-xl font-semibold text-dark mb-1">
         {title}
       </h3>
 
