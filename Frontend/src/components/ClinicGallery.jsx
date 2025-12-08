@@ -14,9 +14,9 @@ import img12 from "../assets/images/Acne-scars (1).webp";
 export default function ClinicGallery() {
   const images = [
     { src: img1, name: "Lip Filler" },
-    { src: img2, name: "Tatto Remove" },
+    { src: img2, name: "Laser Tatto Remove" },
     { src: img3, name: "Carbon laser peel" },
-     { src: img4, name: "Mole Remove" },
+     { src: img4, name: "Laser Mole Remove" },
     { src: img6, name: "Eyebrow Micropigmentation" },
     { src: img9, name: "Dark Knees Treatment" },
     { src: img10, name: "Melasma Treatment" },
