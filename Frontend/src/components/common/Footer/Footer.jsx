@@ -23,7 +23,7 @@ export default function Footer() {
                 icon: <Facebook size={20} />
               },
               {
-                href: "https://www.instagram.com/dermalife.cuttack1?utm_source=qr&igsh=aG9jbGRhbXN2Y254",
+                href: "https://www.instagram.com/dermalife.cuttack?utm_source=qr&igsh=MW1laW0yeHJremg1Mg%3D%3D",
                 icon: <Instagram size={20} />
               },
               {
