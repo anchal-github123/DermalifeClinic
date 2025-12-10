@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { navItems } from "../../../Utils/navbardata";
 import { Facebook, Instagram, MessageCircle } from "lucide-react";
-
+import { FaGoogle } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="bg-primary text-light py-12">
@@ -29,7 +29,12 @@ export default function Footer() {
               {
                 href: "https://wa.me/919776636330",
                 icon: <MessageCircle size={20} />
-              }
+              },
+              {
+                href:" https://share.google/fCEZhyX1xNBvG461M",
+                icon: <FaGoogle  size={20}/>,
+              },
+
             ].map((item, idx) => (
               <a
                 key={idx}

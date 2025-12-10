@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, MessageCircle, Facebook, Instagram } from "lucide-react";
+import { FaGoogle } from "react-icons/fa";
 export default function Contact() {
   return (
     <>
@@ -96,6 +97,9 @@ export default function Contact() {
           </a>
           <a href="https://www.instagram.com/dermalife.cuttack?utm_source=qr&igsh=MW1laW0yeHJremg1Mg%3D%3D"  target="_blank" className="p-3 bg-white shadow-md rounded-full hover:bg-gray-200">
             <Instagram size={22} />
+          </a>
+            <a href="https://share.google/fCEZhyX1xNBvG461M"  target="_blank" className="p-3 bg-white shadow-md rounded-full hover:bg-gray-200">
+            <FaGoogle size={22} />
           </a>
          
         </div>
