@@ -21,8 +21,7 @@ export default function Home() {
     <main role="main" aria-label="Dermalife Cuttack Homepage">
       {/* HERO SECTION – always render immediately */}
       <Hero />
-
-      {/* Lazy Loaded Sections */}
+  {/* Lazy Loaded Sections */}
       
      <Suspense fallback={<Loader />}>
   <Middleblock />
