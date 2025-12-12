@@ -1,8 +1,7 @@
+import { Helmet } from "react-helmet-async";
 import { Suspense, lazy } from "react";
-
 // Non-lazy component (LCP section)
 import Hero from "../Home/Hero";
-
 // Lazy load components
 const Middleblock = lazy(() => import("../../components/common/Middleblock"));
 const Service = lazy(() => import("../Service/Service"));
