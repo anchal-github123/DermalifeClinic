@@ -18,8 +18,7 @@ export default function WhatsappMessage() {
         hover:bg-secondary
         transition 
         z-50
-      "
-    >
+      " >
       <MessageCircleMore size={28} />
     </a>
   );

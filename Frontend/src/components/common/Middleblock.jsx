@@ -1,14 +1,11 @@
 export default function Middleblock() {
   return (
-   <section className="w-full mb-5 bg-primary text-light rounded-3xl mt-5 px-4 py-10  lg:px-8 lg:py-16 relative overflow-hidden">
+   <section className="w-full mb-5 bg-primary text-light rounded-3xl mt-5 px-4 py-8 lg:px-8 lg:py-16 relative overflow-hidden">
+  {/* Content Wrapper */}
+  <div className="relative z-10">
 
-     
-
-      {/* Content Wrapper */}
-      <div className="relative z-10 max-w-6xl mx-auto">
-
-        {/* Heading + Paragraph */}
-    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight mb-2">
+    {/* Heading + Paragraph */}
+  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight mb-2">
   Why Dermalife Clinic Is the Most Trusted<br />Skin & Hair Care Destination
 </h2>
 
@@ -22,18 +19,14 @@ export default function Middleblock() {
 </p>
      {/* Stats Cards */}
         
-        <h3 className="text-4xl font-bold text-[#31D1C0]">
+  <h3 className="text-4xl font-bold text-[#31D1C0]">
   1000<span className="text-white">+</span>
 </h3>
 <p className="text-white text-m leading-tight">
   Happy & Satisfied Customers
 </p>
 
-       
-
-        
-        </div>
-     
-    </section>
+ </div>
+</section>
   )
 }

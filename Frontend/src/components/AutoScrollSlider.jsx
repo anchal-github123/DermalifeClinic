@@ -30,6 +30,7 @@ export default function AutoScrollSlider({ images }) {
             <img
               src={img}
               alt=""
+              loading="lazy"
               className="w-60 h-56 object-cover rounded-xl shadow-lg"
             />
           </div>

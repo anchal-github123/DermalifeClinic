@@ -25,7 +25,6 @@ Time: ${userdata.time}
 Message: ${userdata.message}
 
  `
-
  const whatsappNumber = "9776636330" // ← Your client number
 
     // Create WhatsApp URL

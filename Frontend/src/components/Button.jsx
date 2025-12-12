@@ -1,8 +1,7 @@
 export default function Button({ text, bgcolor, textcol, type, link, onClick }) {
   const baseClass =   `
   flex items-center justify-center gap-1 cursor-pointer font-medium shadow:2xl w-full py-4 md:w-auto
-  text-[0.8rem] sm:text[0.8
-  rem] md:text-[1.2rem] px-5 py-3 md:px-6 md:py-4 lg:px-8 lg:py-4 
+  text-[0.8rem] sm:text[0.8 rem] md:text-[1.2rem] px-3 py-3 md:px-5 md:py-4 lg:px-5 lg:py-4 
   rounded-full transition-all duration-300
   hover:scale-105 hover:shadow-lg hover:-translate-y-1 border-1
 `;
@@ -24,7 +23,7 @@ export default function Button({ text, bgcolor, textcol, type, link, onClick }) 
   if (type === "appointment") {
     return (
       <button onClick={onClick} className={baseClass} style={style}>
-        {text} →
+        {text} 
       </button>
     );
   }

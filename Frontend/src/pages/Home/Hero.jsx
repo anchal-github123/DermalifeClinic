@@ -20,9 +20,9 @@ export default function Hero() {
         className="relative grid grid-cols-1 lg:grid-cols-2 items-center gap-5 lg:gap-10 px-1 lg:py-12"
       >
         {/* LEFT CONTENT */}
-        <div>
-          <h4 className="text-primary text-xl font-medium mb-3">
-            Trusted Skin, Hair & Aesthetic Clinic
+        <div className="flex flex-col gap-2">
+          <h4 className="text-primary text-xl font-medium">
+             Best Skin, Hair & Laser Clinic in Cuttack
           </h4>
 
           <h1 className="text-4xl md:text-5xl lg:text-[58px] font-semibold  text-black">
@@ -30,11 +30,13 @@ export default function Hero() {
             <br className="hidden lg:block" />
             Aesthetic Treatments
           </h1>
+          
 
-          <p className="text-tertiary mt-5 lg:mt-7 max-w-[96%]">
-            Safe, result-driven skin, hair and laser solutions performed by 
-            experienced clinicians using advanced medical technology. 
-            Personalized care, visible transformation, and long-lasting confidence.
+          <p className="text-tertiary  max-w-[96%] mt-2">
+            Dermalife Cuttack offers advanced dermatology, acne treatment, 
+            pigmentation removal, hair fall control, PRP treatment and 
+            laser hair removal using safe medical technologies. Get 
+            personalized care from expert dermatologists in Cuttack.
           </p>
 
           {/* BUTTONS */}
@@ -45,7 +47,6 @@ export default function Hero() {
               text="Call:9776636330"
               bgcolor="secondary"
               textcol="#ffffff"
-              hover="primary"
               link="9776636330"
             />
 
@@ -55,7 +56,6 @@ export default function Hero() {
               text="Appointment"
               bgcolor="primary"
               textcol="light"
-              hover="scondary"
               onClick={() => setIsClick(true)}
             />
           </div>
@@ -65,7 +65,7 @@ export default function Hero() {
         <div className="flex justify-center">
           <motion.img
             src={Heroimg}
-            alt="Dermalife clinic"
+            alt="Dermalife Cuttack Skin and Hair Clinic Dermatologist"
             className="rounded-xl object-cover w-full max-h-[400px] lg:max-h-[600px]"
             loading="lazy"
           />

@@ -14,6 +14,7 @@ export default function Gallery({ images }) {
             <img
               src={item.src}
               className="w-full h-45 object-cover group-hover:scale-110 duration-500"
+              loading="lazy"
               alt={item.name}
             />
 

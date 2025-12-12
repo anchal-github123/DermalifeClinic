@@ -5,51 +5,57 @@ export default function About() {
   return (
     <>
       {/* ABOUT SECTION */}
-      <section className="w-full py-5">
-        <div className=" grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-2">
+      <section
+        className="w-full"
+        role="region"
+        aria-label="About Dermalife Cuttack and Dr. Monika Sahu"
+      >
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-2">
 
           {/* LEFT — TEXT CONTENT */}
-          <div>
+          <article>
             <h2 className="text-3xl md:text-4xl font-bold text-primary leading-snug mb-5">
               Welcome to <span className="text-secondary">Dermalife</span>  
-              <br />Your Journey to Aesthetic Excellence
+              <br />
+              Your Journey to Aesthetic Excellence in Cuttack
             </h2>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              Dermalife specializes in world-class laser treatments and
-              advanced aesthetic procedures designed to enhance your natural
-              beauty with safety, precision, and care.
+              Dermalife is one of the most trusted{" "}
+              <b>skin, hair and aesthetic clinics in Cuttack</b>, providing
+              world-class laser treatments and advanced cosmetic procedures.
+              Our goal is to enhance your natural beauty with complete
+              safety, precision, and expert care.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              <b>Dr. Monika Sahu</b>, a dedicated and highly skilled aesthetic
-              practitioner, began her journey in <b>2014</b>. She has completed
+              <b>Dr. Monika Sahu</b>, a highly experienced aesthetic practitioner,
+              began her professional journey in <b>2014</b>. She has completed
               Fellowship in <b>Medical Cosmetology</b> and <b>Medical Micropigmentation</b>,
-              along with specialized training in <b>facial injections</b> and
-              <b> semi-permanent makeup</b> from reputed national and international
-              institutes.
+              with specialized training in <b>facial injections</b>, <b>anti-aging treatments</b>,
+              and <b>semi-permanent makeup</b> from renowned national and international institutes.
             </p>
 
             <p className="text-gray-600 leading-relaxed">
-              With a patient-first mindset, Dr. Monika brings together
-              advanced technology and personalized treatment planning to deliver
-              <b> safe, effective, and result-oriented skincare & hair solutions</b>.
-              Her mission is to help clients achieve their aesthetic goals with
-              confidence and comfort.
+              With a patient-first approach, Dr. Monika combines modern technology
+              with personalized treatment plans to deliver{" "}
+              <b>safe, effective and results-driven skin & hair solutions</b>.
+              Her mission is to help clients achieve healthy, glowing skin and
+              confidence through expert aesthetic care.
             </p>
-          </div>
+          </article>
 
           {/* RIGHT — DOCTOR IMAGE */}
-          <div className="flex justify-center">
+          <figure className="flex justify-center">
             <div className="w-[350px] h-[420px] md:w-[380px] md:h-[550px] rounded-3xl overflow-hidden shadow-xl border border-gray-200">
               <img
                 src={monalishaimg}
-                alt="Dr. Monika Sahu - Dermalife Clinic"
+                alt="Dr. Monika Sahu - Aesthetic Practitioner at Dermalife Cuttack"
                 className="w-full h-full object-cover"
                 loading="lazy"
               />
             </div>
-          </div>
+          </figure>
 
         </div>
       </section>

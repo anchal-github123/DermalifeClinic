@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import { navItems } from "../../../Utils/navbardata";
 import { Facebook, Instagram, MessageCircle } from "lucide-react";
 import { FaGoogle } from "react-icons/fa";
+
 export default function Footer() {
   return (
     <footer className="bg-primary text-light py-12">
@@ -9,7 +10,7 @@ export default function Footer() {
         
         {/* Brand */}
         <div>
-          <h2 className="text-2xl font-semibold">Dermalife Clinic</h2>
+          <h2 className="text-2xl font-semibold">Dermalife – Laser and Aesthetic Clinic</h2>
           <p className="text-gray-300 mt-3">
             Advanced Skin, Hair, Laser & Aesthetic Treatments with expert care,
             modern technology, and a personalized approach for every patient.
@@ -20,27 +21,31 @@ export default function Footer() {
             {[
               {
                 href: "https://www.facebook.com/people/Dermalife-Laser-and-Aesthetic-clinic/100094530831026/?mibextid=ZbWKwL",
-                icon: <Facebook size={20} />
+                icon: <Facebook size={20} />,
+                label: "Facebook"
               },
               {
                 href: "https://www.instagram.com/dermalife.cuttack?utm_source=qr&igsh=MW1laW0yeHJremg1Mg%3D%3D",
-                icon: <Instagram size={20} />
+                icon: <Instagram size={20} />,
+                label: "Instagram"
               },
               {
                 href: "https://wa.me/919776636330",
-                icon: <MessageCircle size={20} />
+                icon: <MessageCircle size={20} />,
+                label: "WhatsApp"
               },
               {
                 href:" https://share.google/fCEZhyX1xNBvG461M",
-                icon: <FaGoogle  size={20}/>,
+                icon: <FaGoogle size={20}/>,
+                label: "Google Review"
               },
-
             ].map((item, idx) => (
               <a
                 key={idx}
                 href={item.href}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label={item.label}
                 className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition"
               >
                 {item.icon}
@@ -55,7 +60,7 @@ export default function Footer() {
           <ul className="space-y-2 text-gray-300">
             {navItems.map((item) => (
               <li key={item.path}>
-                <NavLink to={item.path} className="hover:text-white">
+                <NavLink to={item.path} className="hover:text-white" aria-label={item.name}>
                   {item.name}
                 </NavLink>
               </li>
@@ -66,28 +71,24 @@ export default function Footer() {
         {/* Contact Info */}
         <div>
           <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-
           <address className="not-italic text-gray-300 leading-relaxed">
-            <strong>Dermalife – Laser & Aesthetic Clinic</strong><br />
+            <strong>Dermalife – Laser and Aesthetic Clinic</strong><br />
             Below Jeevan Jyoti Hospital,<br />
             Near Ranihat Clock Tower,<br />
             Ranihat, Cuttack, Odisha – 753001
           </address>
-
           <p className="mt-4 text-gray-300">
-            
             Phone:{" "}
-            <a href="tel:+919776636330" className="hover:text-white">
+            <a href="tel:+919776636330" className="hover:text-white" aria-label="Call Dermalife – Laser and Aesthetic Clinic">
               +91 9776636330
             </a>
           </p>
         </div>
-
       </div>
 
       {/* Bottom Strip */}
       <div className="border-t border-white/20 mt-10 pt-6 text-center text-gray-300">
-        © {new Date().getFullYear()} Dermalife Clinic. All rights reserved.
+        © {new Date().getFullYear()} Dermalife – Laser and Aesthetic Clinic. All rights reserved.
       </div>
     </footer>
   );
