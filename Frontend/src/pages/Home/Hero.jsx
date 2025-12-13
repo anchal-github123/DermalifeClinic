@@ -12,7 +12,7 @@ export default function Hero() {
 
   return (
     <section className="w-full relative overflow-hidden hero">
-   {/* HERO CONTENT */}
+      {/* HERO CONTENT */}
       <motion.div
         initial={{ y: -80, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -22,29 +22,29 @@ export default function Hero() {
         {/* LEFT CONTENT */}
         <div className="flex flex-col gap-2">
           <h4 className="text-primary text-xl font-medium">
-             Best Skin, Hair & Laser Clinic in Cuttack
+            Best Cosmetology, Skin, Hair & Laser Clinic in Cuttack, Odisha
           </h4>
 
-          <h1 className="text-4xl md:text-5xl lg:text-[58px] font-semibold  text-black">
-            Advanced  Cosmetology, Hair Care &  
+          <h1 className="text-4xl md:text-5xl lg:text-[58px] font-semibold text-black">
+            Advanced Cosmetology, Hair Care &
             <br className="hidden lg:block" />
             Aesthetic Treatments
           </h1>
-          
 
-          <p className="text-tertiary  max-w-[96%] mt-2">
-            Dermalife Cuttack offers advanced dermatology, acne treatment, 
-            pigmentation removal, hair fall control, PRP treatment and 
-            laser hair removal using safe medical technologies. Get 
-            personalized care from expert dermatologists in Cuttack.
+          <p className="text-tertiary max-w-[96%] mt-2">
+            Dermalife Cuttack is a trusted cosmetology and aesthetic clinic
+            offering laser treatments, hydrafacial, fillers facelift, fat loss
+            injections, acne care, pigmentation correction, PRP hair treatment,
+            anti-aging solutions and advanced skin & hair treatments using safe
+            and modern aesthetic technologies.
           </p>
 
           {/* BUTTONS */}
-          <div className="flex justify-between md:justify-start items-center  gap-3 lg:gap-5 mt-6 lg:mt-10">
+          <div className="flex justify-between md:justify-start items-center gap-3 lg:gap-5 mt-6 lg:mt-10">
             {/* Call Button */}
             <Button
               type="call"
-              text="Call:9776636330"
+              text="Call: 9776636330"
               bgcolor="secondary"
               textcol="#ffffff"
               link="9776636330"
@@ -53,7 +53,7 @@ export default function Hero() {
             {/* Appointment Button */}
             <Button
               type="appointment"
-              text="Appointment"
+              text="Book Appointment"
               bgcolor="primary"
               textcol="light"
               onClick={() => setIsClick(true)}
@@ -65,7 +65,7 @@ export default function Hero() {
         <div className="flex justify-center">
           <motion.img
             src={Heroimg}
-            alt="Dermalife Cuttack Skin and Hair Clinic Dermatologist"
+            alt="Dermalife Cuttack Cosmetology and Aesthetic Clinic"
             className="rounded-xl object-cover w-full max-h-[400px] lg:max-h-[600px]"
             loading="lazy"
           />
