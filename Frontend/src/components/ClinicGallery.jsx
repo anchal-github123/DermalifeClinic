@@ -27,5 +27,5 @@ export default function ClinicGallery() {
     { src: img7, name: "Facelift" },
     ];
 
-  return <Gallery images={images}  title="Treatments"  mobileCols={2}/>;
+  return <Gallery images={images}  title="Treatments"  mobileCols={1}/>;
 }

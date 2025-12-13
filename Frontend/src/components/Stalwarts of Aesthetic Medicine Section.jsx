@@ -55,7 +55,7 @@ export default function StalwartsGallery() {
     <Gallery
       title="Stalwarts of Aesthetic Medicine"
       images={images}
-      gridcol="2"
+    mobileCols={2}
     />
   );
 }
