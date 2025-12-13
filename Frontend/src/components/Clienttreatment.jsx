@@ -14,6 +14,6 @@ const images = [
         { src: img17, name: "Eyebrow Micropigmentation" },
     ];
     
-      return <Gallery images={images}  title="Treatments Photos"  gridcol="2"/>;
+      return <Gallery images={images}  title="Treatments Photos"  mobileCols={2}/>;
  
 }

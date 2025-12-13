@@ -11,7 +11,7 @@ return (
     <Gallery
       title="Celebrities & Media Presence"
       images={images}
-      gridcol="2"
+         mobileCols={2}
     />
   );
 }

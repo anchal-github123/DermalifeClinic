@@ -1,11 +1,16 @@
-export default function Gallery({ images,title,gridcol}) {
+export default function Gallery({ images, title, mobileCols = 1 }) {
+  const mobileGridClass =
+    mobileCols === 2 ? "grid-cols-2" : "grid-cols-1";
+
   return (
-    <div className="bg-gray-100 py-3">
-      <h2 className="text-3xl font-bold text-center mb-5 text-gray-800">
+    <div className="bg-gray-100 py-6">
+      <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">
         {title}
       </h2>
 
-      <div className={`grid grid-cols-${gridcol} sm:grid-cols-3 lg:grid-cols-4 gap-3`}>
+      <div
+        className={`grid ${mobileGridClass} sm:grid-cols-3 lg:grid-cols-4 gap-4 px-4 max-w-7xl mx-auto`}
+      >
         {images.map((item, index) => (
           <div
             key={index}
@@ -13,18 +18,19 @@ export default function Gallery({ images,title,gridcol}) {
           >
             <img
               src={item.src}
-              className="w-full h-45 object-cover group-hover:scale-110 duration-500"
-              loading="lazy"
               alt={item.name}
+              loading="lazy"
+              className="w-full h-48 object-cover group-hover:scale-110 duration-500"
             />
 
-            <p className="text-center font-semibold text-gray-700 py-3 text-m">
-              {item.name}
-            </p>
+            {item.name && (
+              <p className="text-center font-semibold text-gray-700 py-3 text-sm">
+                {item.name}
+              </p>
+            )}
           </div>
         ))}
       </div>
-      
     </div>
   );
 }
