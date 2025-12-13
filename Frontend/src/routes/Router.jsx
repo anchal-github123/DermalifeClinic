@@ -9,7 +9,7 @@ const About = lazy(() => import("../pages/About/About"));
 const Service = lazy(() => import("../pages/Service/Service"));
 const Contact = lazy(() => import("../pages/Contact/Contact"));
 const AppointmentModel = lazy(() => import("../components/AppointmentModel"));
-const ClinicGallery=lazy(()=>import("../components/ClinicGallery"))
+const ClinicGallery=lazy(()=>import("../components/Finallgallery"))
 const ServiceDeatails=lazy(()=>import("../pages/ServiceDeatils/ServiceDeatails"))
 const router = createBrowserRouter([
   {

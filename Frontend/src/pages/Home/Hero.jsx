@@ -2,6 +2,7 @@ import Heroimg from "../../assets/images/Heroimg.webp";
 import { motion, easeIn } from "framer-motion";
 import { lazy, Suspense, useState } from "react";
 import Button from "../../components/Button";
+import StalwartsGallery from "../../components/Stalwarts of Aesthetic Medicine Section";
 
 const AppointmentModel = lazy(() =>
   import("../../components/AppointmentModel")
@@ -81,6 +82,7 @@ export default function Hero() {
           />
         </Suspense>
       )}
+    
     </section>
   );
 }

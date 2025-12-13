@@ -1,11 +1,11 @@
-export default function Gallery({ images }) {
+export default function Gallery({ images,title,gridcol }) {
   return (
     <div className="bg-gray-100 py-3">
       <h2 className="text-3xl font-bold text-center mb-5 text-gray-800">
-        Our Clinic Gallery
+        {title}
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+      <div className={`grid grid-cols-${gridcol} sm:grid-cols-3 lg:grid-cols-4 gap-3`}>
         {images.map((item, index) => (
           <div
             key={index}
@@ -24,6 +24,7 @@ export default function Gallery({ images }) {
           </div>
         ))}
       </div>
+      
     </div>
   );
 }
