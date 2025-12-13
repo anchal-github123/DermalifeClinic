@@ -25,9 +25,7 @@ export default function ClinicGallery() {
     { src: img11, name: "Botox Treatment" },
     { src: img12, name: "Acne Scar Laser Treatment" },
     { src: img7, name: "Facelift" },
-    
-
-  ];
+    ];
 
   return <Gallery images={images}  title="Treatments"  gridcol="1"/>;
 }
