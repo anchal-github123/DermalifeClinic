@@ -7,13 +7,13 @@ import img17 from "../assets/images/treatment5.jpeg";
 
 export default function Clienttreatment() {
 const images = [
-        { src: img13, name: "Lip Filler" },
-        { src: img14, name: "Laser Tattoo Removal" },
-        { src: img15, name: "Carbon laser peel" },
-         { src: img16, name: "Laser Mole Removal" },
-        { src: img17, name: "Eyebrow Micropigmentation" },
+        { src: img13, name: "RF skin tightening" },
+        { src: img14, name: "Hair growth GFC treatment" },
+        { src: img15, name: "Laser hydrafacial" },
+         { src: img16, name: "Exosomes therapy for faster hair growth" },
+        { src: img17, name: "carbon peel laser" },
     ];
     
-      return <Gallery images={images}  title="Treatments Photos"  mobileCols={2}/>;
+      return <Gallery images={images}  title="Treatments with utmost patient"  mobileCols={2}/>;
  
 }

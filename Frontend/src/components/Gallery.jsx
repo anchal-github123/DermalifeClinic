@@ -1,4 +1,4 @@
-export default function Gallery({ images, title, mobileCols = 1 }) {
+export default function Gallery({ images, title, mobileCols = 1,vdo }) {
   const mobileGridClass =
     mobileCols === 2 ? "grid-cols-2" : "grid-cols-1";
 
@@ -31,6 +31,10 @@ export default function Gallery({ images, title, mobileCols = 1 }) {
           </div>
         ))}
       </div>
+      {
+        vdo &&   <video src={vdo} controls className="h-60 w-full mt-3"></video>
+      }
+    
     </div>
   );
 }

@@ -1,10 +1,11 @@
 import Gallery from "./Gallery";
 import celeb1 from "../assets/images/Celebraty1.webp";
 import celeb2 from "../assets/images/celebrate2.webp";
+import vdo from "../assets/images/Miti.mp4"
 export default function CelebritiesGallery() {
   const images = [
-    { src: celeb1, name: "" },
-    { src: celeb2, name: "" },
+    { src: celeb1, name: "Mithi" },
+    { src: celeb2, name: "Prakruti Mishra" },
   ];
 
 return (
@@ -12,6 +13,7 @@ return (
       title="Celebrities & Media Presence"
       images={images}
          mobileCols={2}
+         vdo={vdo}
     />
   );
 }
