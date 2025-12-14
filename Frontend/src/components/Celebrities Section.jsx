@@ -4,8 +4,8 @@ import celeb2 from "../assets/images/celebrate2.webp";
 import vdo from "../assets/images/Miti.mp4"
 export default function CelebritiesGallery() {
   const images = [
-    { src: celeb1, name: "Mithi" },
-    { src: celeb2, name: "Prakruti Mishra" },
+    { src: celeb1, name: "Ollywood actress Mithi" },
+    { src: celeb2, name: "Ollywood to Bollywood star Prakruti Mishra" },
   ];
 
 return (
